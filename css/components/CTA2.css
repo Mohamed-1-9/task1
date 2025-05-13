@@ -1,0 +1,47 @@
+.CTA2 {
+    background-image: url(../../imgs/1d60380ef9051aa0f59b3d4c3427f2e1c580add2.png);
+    height: 505px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        background: #00000091;
+        /* max-width: 858px; */
+        min-height: 311px;
+        gap: 32px;
+        border-radius: 12px;
+        padding: 44px;
+        backdrop-filter: blur(10px);
+        color: white;
+
+        h2 {
+            /* width: 770px; */
+            height: 51px;
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 42px;
+            line-height: 100%;
+            letter-spacing: -2%;
+            text-align: center;
+
+
+        }
+
+        p {
+            /* width: 750px; */
+            height: 140px;
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: center;
+
+
+        }
+    }
+
+}

@@ -1,0 +1,132 @@
+.woc {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-right: 150px;
+    padding-bottom: 80px;
+    padding-left: 150px;
+
+    display: flex;
+    gap: 30px;
+
+    .woc-content {
+        width: 40%;
+        transform: translateY(50px);
+        color: #1C1C1C;
+
+        h4 {
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 64px;
+            letter-spacing: 0%;
+        }
+
+        p {
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: 0%;
+            min-width: 400px;
+
+        }
+
+
+    }
+
+    .wts {
+
+        height: 443px;
+        gap: 87px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+
+
+        width: 60%;
+        background: #3CAB900F;
+        border-radius: 24px;
+        padding: 40px;
+
+
+        .wts-head {
+            display: flex;
+            justify-content: space-between;
+
+            h4 {
+                font-family: Plus Jakarta Sans;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: #3CAB90;
+
+            }
+
+            p {
+                font-family: Inter;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 150%;
+                letter-spacing: 0%;
+                color: #101828;
+                margin-bottom: 20px;
+            }
+
+        }
+
+        .wts-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .wts-card-content {
+                display: flex;
+                padding: 10px;
+                align-items: center;
+
+                div {
+                    margin-left: 10px;
+
+                }
+            }
+
+            .wts-card-content2 {
+                span {
+                    width: 40px;
+                    height: 40px;
+                    display: inline-block;
+                    padding: 9px 14px;
+                    border: 1px solid #1C1C1C;
+                    border-radius: 50%;
+
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .woc {
+        flex-direction: column;
+        padding: 0;
+        padding-top: 80px;
+        padding-right: 20px;
+        padding-bottom: 80px;
+        padding-left: 20px;
+
+        .woc-content {
+            width: 100%;
+            transform: translateY(0);
+            margin-bottom: 30px;
+        }
+
+        .wts {
+            width: 100%;
+            height: auto;
+            gap: 30px;
+            padding: 20px;
+        }
+    }
+    
+}
