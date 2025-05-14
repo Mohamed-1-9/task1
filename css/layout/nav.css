@@ -1,5 +1,8 @@
 
 nav{
+    i{
+        display: none !important;
+    }
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,6 +71,7 @@ nav{
             padding: 20px;
             border-radius: 30px;
             cursor: pointer;
+            display: inline !important;
         }
         ul{
             display: none;
@@ -89,6 +93,8 @@ nav{
             display: none;
         }
         i{
+            display: inline !important;
+
             background-color: #046d6188;
             padding: 20px;
             border-radius: 30px;
