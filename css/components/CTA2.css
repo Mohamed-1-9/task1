@@ -10,7 +10,8 @@
     div {
         background: #00000091;
         /* max-width: 858px; */
-        min-height: 311px;
+        /* min-height: 311px; */
+        
         gap: 32px;
         border-radius: 12px;
         padding: 44px;
@@ -22,6 +23,7 @@
             height: 51px;
             font-family: Inter;
             font-weight: 600;
+
             font-size: 42px;
             line-height: 100%;
             letter-spacing: -2%;
@@ -45,3 +47,22 @@
     }
 
 }
+        
+    @media screen and (max-width: 1200px) {
+        /* Styles for phones */
+        .CTA2 {
+            height: 100%;
+            padding: 20px;
+            div {
+                padding: 20px;
+                h2 {
+                    font-size: 24px;
+                    line-height: 100%;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 140%;
+                }
+            }
+        }
+    }

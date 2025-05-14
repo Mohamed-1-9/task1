@@ -73,6 +73,12 @@
         flex-wrap: wrap;
         .about-img{
             width: 100%;
+            .img1{
+                img{
+                    width: 100%;
+                height: auto;
+                }
+            }
             padding: 0;
         }
     }

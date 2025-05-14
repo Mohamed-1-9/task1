@@ -140,28 +140,26 @@ footer {
     }
 
 }
-@media (max-width: 1000px) {
-    footer {
+@media screen and (max-width: 1200px) {
+    /* Styles for phones */
+    footer{
         padding: 40px 20px;
         height: auto;
-        .f-header {
+        .f-header{
             flex-direction: column;
-            align-items: center;
             gap: 20px;
-            .f-header-content {
+            .f-header-content{
                 width: 100%;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                div {
-                    margin-bottom: 0px;
+                ul{
+                    flex-direction: column;
+                    gap: 10px;
                 }
             }
-            .f-header-input {
+            .f-header-input{
                 width: 100%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                .f-header-input2{
+                    width: 100%;
+                }
             }
         }
     }
